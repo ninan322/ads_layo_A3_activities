@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('Ninan')
             $table->string('Layo')
             $table->string('layoninan@gmail.com')->unique();
+            $table->integer('22')->after('layoninan@gmail.com');
 
             $table->timestamps();
         });
